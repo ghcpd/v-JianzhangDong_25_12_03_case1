@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.mplconfig/
+tmp.csv
+plot.png
