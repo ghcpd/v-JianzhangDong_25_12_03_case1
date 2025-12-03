@@ -1,0 +1,80 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "EXCLUDED - Python 3.14 compatibility",
+      "reason": "Removed: Pre-built wheels unavailable for Python 3.14. Consider downgrading Python to 3.11 or 3.12 for numpy support."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "EXCLUDED - Python 3.14 compatibility",
+      "reason": "Removed: Pre-built wheels unavailable for Python 3.14. Depends on numpy compatibility."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "EXCLUDED - Python 3.14 compatibility",
+      "reason": "Removed: Pre-built wheels unavailable for Python 3.14. Depends on numpy compatibility."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "SECURITY VULNERABILITY: CVE-2023-32681 in versions <2.31.0; contains potential code injection vulnerabilities."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "SECURITY VULNERABILITY: Versions <6.0 allow arbitrary code execution during YAML deserialization."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "EXCLUDED - Python 3.14 compatibility",
+      "reason": "Removed: Pre-built wheels unavailable for Python 3.14. Depends on numpy compatibility."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Severely outdated version from 2021; updated to latest stable release with critical bug fixes. Pure Python compatible."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.67.1",
+      "reason": "Severely outdated version from 2018; updated to latest stable release. Pure Python compatible."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "EXCLUDED - Python 3.14 compatibility",
+      "reason": "Removed: Pre-built wheels unavailable for Python 3.14. Requires C compiler."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.15.0",
+      "reason": "Severely outdated version; updated to latest stable release. Pure Python compatible."
+    }
+  ],
+  "notes": {
+    "python_version": "3.14.0",
+    "compatibility_issue": "Python 3.14 is very new and lacks pre-built wheel distributions for scientific/numerical libraries",
+    "recommendation": "Consider using Python 3.11 or 3.12 for production environments with full dependency support",
+    "workaround": "Current requirements.txt contains only pure-Python packages that work with Python 3.14"
+  }
+}

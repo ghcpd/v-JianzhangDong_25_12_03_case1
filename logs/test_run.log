@@ -1,0 +1,434 @@
+2025-12-03 10:21:40,873 - INFO - 
+
+2025-12-03 10:21:40,874 - INFO - ======================================================================
+2025-12-03 10:21:40,874 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:21:40,874 - INFO - ======================================================================
+2025-12-03 10:21:40,874 - INFO - Started at: 2025-12-03 10:21:40
+2025-12-03 10:21:40,874 - INFO - 
+2025-12-03 10:21:40,875 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:21:40,875 - INFO - Python 3.14.0
+2025-12-03 10:21:40,875 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:21:40,875 - INFO - 
+2025-12-03 10:21:40,876 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:21:41,569 - INFO - 
+2025-12-03 10:21:41,569 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:21:41,570 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:21:41,570 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:21:50,787 - INFO - Installing project dependencies...
+2025-12-03 10:22:13,454 - ERROR - Failed to install dependencies:   error: subprocess-exited-with-error
+  
+  Preparing metadata (pyproject.toml) did not run successfully.
+  exit code: 1
+  
+  [21 lines of output]
+  + D:\python\python.exe C:\Users\v-jiandong\AppData\Local\Temp\pip-install-0d7mnfj2\numpy_97ad332b66d04027af7f0c7147ced102\vendored-meson\meson\meson.py setup C:\Users\v-jiandong\AppData\Local\Temp\pip-install-0d7mnfj2\numpy_97ad332b66d04027af7f0c7147ced102 C:\Users\v-jiandong\AppData\Local\Temp\pip-install-0d7mnfj2\numpy_97ad332b66d04027af7f0c7147ced102\.mesonpy-kee84wui -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\v-jiandong\AppData\Local\Temp\pip-install-0d7mnfj2\numpy_97ad332b66d04027af7f0c7147ced102\.mesonpy-kee84wui\meson-python-native-file.ini
+  The Meson build system
+  Version: 1.2.99
+  Source dir: C:\Users\v-jiandong\AppData\Local\Temp\pip-install-0d7mnfj2\numpy_97ad332b66d04027af7f0c7147ced102
+  Build dir: C:\Users\v-jiandong\AppData\Local\Temp\pip-install-0d7mnfj2\numpy_97ad332b66d04027af7f0c7147ced102\.mesonpy-kee84wui
+  Build type: native build
+  Project name: NumPy
+  Project version: 1.26.4
+  WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+  
+  ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+  The following exception(s) were encountered:
+  Running `icl ""` gave "[WinError 2] ϵͳ�Ҳ���ָ�����ļ���"
+  Running `cl /?` gave "[WinError 2] ϵͳ�Ҳ���ָ�����ļ���"
+  Running `cc --version` gave "[WinError 2] ϵͳ�Ҳ���ָ�����ļ���"
+  Running `gcc --version` gave "[WinError 2] ϵͳ�Ҳ���ָ�����ļ���"
+  Running `clang --version` gave "[WinError 2] ϵͳ�Ҳ���ָ�����ļ���"
+  Running `clang-cl /?` gave "[WinError 2] ϵͳ�Ҳ���ָ�����ļ���"
+  Running `pgcc --version` gave "[WinError 2] ϵͳ�Ҳ���ָ�����ļ���"
+  
+  A full log can be found at C:\Users\v-jiandong\AppData\Local\Temp\pip-install-0d7mnfj2\numpy_97ad332b66d04027af7f0c7147ced102\.mesonpy-kee84wui\meson-logs\meson-log.txt
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+Encountered error while generating package metadata.
+
+numpy
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+2025-12-03 10:22:13,455 - ERROR - Failed to install dependencies. Check logs above for details.
+2025-12-03 10:23:32,011 - INFO - 
+
+2025-12-03 10:23:32,011 - INFO - ======================================================================
+2025-12-03 10:23:32,011 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:23:32,011 - INFO - ======================================================================
+2025-12-03 10:23:32,011 - INFO - Started at: 2025-12-03 10:23:32
+2025-12-03 10:23:32,011 - INFO - 
+2025-12-03 10:23:32,012 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:23:32,012 - INFO - Python 3.14.0
+2025-12-03 10:23:32,012 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:23:32,012 - INFO - 
+2025-12-03 10:23:32,013 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:23:32,521 - INFO - [OK] pip is available
+2025-12-03 10:23:32,522 - INFO - 
+2025-12-03 10:23:32,522 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:23:32,522 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:23:32,522 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:23:34,661 - INFO - Installing project dependencies...
+2025-12-03 10:23:58,410 - ERROR - Failed to install dependencies:   error: subprocess-exited-with-error
+  
+  Preparing metadata (pyproject.toml) did not run successfully.
+  exit code: 1
+  
+  [21 lines of output]
+  + D:\python\python.exe C:\Users\v-jiandong\AppData\Local\Temp\pip-install-pa27f83d\numpy_4fde826e4b2f4914b6fc3b8721945535\vendored-meson\meson\meson.py setup C:\Users\v-jiandong\AppData\Local\Temp\pip-install-pa27f83d\numpy_4fde826e4b2f4914b6fc3b8721945535 C:\Users\v-jiandong\AppData\Local\Temp\pip-install-pa27f83d\numpy_4fde826e4b2f4914b6fc3b8721945535\.mesonpy-zxnjwy18 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\v-jiandong\AppData\Local\Temp\pip-install-pa27f83d\numpy_4fde826e4b2f4914b6fc3b8721945535\.mesonpy-zxnjwy18\meson-python-native-file.ini
+  The Meson build system
+  Version: 1.2.99
+  Source dir: C:\Users\v-jiandong\AppData\Local\Temp\pip-install-pa27f83d\numpy_4fde826e4b2f4914b6fc3b8721945535
+  Build dir: C:\Users\v-jiandong\AppData\Local\Temp\pip-install-pa27f83d\numpy_4fde826e4b2f4914b6fc3b8721945535\.mesonpy-zxnjwy18
+  Build type: native build
+  Project name: NumPy
+  Project version: 1.26.4
+  WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+  
+  ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+  The following exception(s) were encountered:
+  Running `icl ""` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `cl /?` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `cc --version` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `gcc --version` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `clang --version` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `clang-cl /?` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `pgcc --version` gave "[WinError 2] 系统找不到指定的文件。"
+  
+  A full log can be found at C:\Users\v-jiandong\AppData\Local\Temp\pip-install-pa27f83d\numpy_4fde826e4b2f4914b6fc3b8721945535\.mesonpy-zxnjwy18\meson-logs\meson-log.txt
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+Encountered error while generating package metadata.
+
+numpy
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+2025-12-03 10:23:58,411 - ERROR - Failed to install dependencies. Check logs above for details.
+2025-12-03 10:23:58,724 - INFO - 
+
+2025-12-03 10:23:58,724 - INFO - ======================================================================
+2025-12-03 10:23:58,724 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:23:58,724 - INFO - ======================================================================
+2025-12-03 10:23:58,724 - INFO - Started at: 2025-12-03 10:23:58
+2025-12-03 10:23:58,724 - INFO - 
+2025-12-03 10:23:58,724 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:23:58,724 - INFO - Python 3.14.0
+2025-12-03 10:23:58,724 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:23:58,724 - INFO - 
+2025-12-03 10:23:58,724 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:23:59,308 - INFO - [OK] pip is available
+2025-12-03 10:23:59,308 - INFO - 
+2025-12-03 10:23:59,308 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:23:59,308 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:23:59,308 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:24:01,686 - INFO - Installing project dependencies...
+2025-12-03 10:24:22,931 - INFO - 
+
+2025-12-03 10:24:22,932 - INFO - ======================================================================
+2025-12-03 10:24:22,932 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:24:22,932 - INFO - ======================================================================
+2025-12-03 10:24:22,932 - INFO - Started at: 2025-12-03 10:24:22
+2025-12-03 10:24:22,932 - INFO - 
+2025-12-03 10:24:22,932 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:24:22,932 - INFO - Python 3.14.0
+2025-12-03 10:24:22,933 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:24:22,933 - INFO - 
+2025-12-03 10:24:22,933 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:24:23,452 - INFO - [OK] pip is available
+2025-12-03 10:24:23,452 - INFO - 
+2025-12-03 10:24:23,452 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:24:23,453 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:24:23,453 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:24:25,862 - INFO - Installing project dependencies...
+2025-12-03 10:24:58,620 - ERROR - Failed to install dependencies:   error: subprocess-exited-with-error
+  
+  Preparing metadata (pyproject.toml) did not run successfully.
+  exit code: 1
+  
+  [21 lines of output]
+  + D:\python\python.exe C:\Users\v-jiandong\AppData\Local\Temp\pip-install-_a39c9u7\numpy_1e067ab00c4f470a83959d4e539edda4\vendored-meson\meson\meson.py setup C:\Users\v-jiandong\AppData\Local\Temp\pip-install-_a39c9u7\numpy_1e067ab00c4f470a83959d4e539edda4 C:\Users\v-jiandong\AppData\Local\Temp\pip-install-_a39c9u7\numpy_1e067ab00c4f470a83959d4e539edda4\.mesonpy-e6ikf_i8 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\v-jiandong\AppData\Local\Temp\pip-install-_a39c9u7\numpy_1e067ab00c4f470a83959d4e539edda4\.mesonpy-e6ikf_i8\meson-python-native-file.ini
+  The Meson build system
+  Version: 1.2.99
+  Source dir: C:\Users\v-jiandong\AppData\Local\Temp\pip-install-_a39c9u7\numpy_1e067ab00c4f470a83959d4e539edda4
+  Build dir: C:\Users\v-jiandong\AppData\Local\Temp\pip-install-_a39c9u7\numpy_1e067ab00c4f470a83959d4e539edda4\.mesonpy-e6ikf_i8
+  Build type: native build
+  Project name: NumPy
+  Project version: 2.0.0
+  WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+  
+  ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+  The following exception(s) were encountered:
+  Running `icl ""` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `cl /?` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `cc --version` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `gcc --version` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `clang --version` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `clang-cl /?` gave "[WinError 2] 系统找不到指定的文件。"
+  Running `pgcc --version` gave "[WinError 2] 系统找不到指定的文件。"
+  
+  A full log can be found at C:\Users\v-jiandong\AppData\Local\Temp\pip-install-_a39c9u7\numpy_1e067ab00c4f470a83959d4e539edda4\.mesonpy-e6ikf_i8\meson-logs\meson-log.txt
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+Encountered error while generating package metadata.
+
+numpy
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+2025-12-03 10:24:58,620 - ERROR - Failed to install dependencies. Check logs above for details.
+2025-12-03 10:25:34,433 - INFO - 
+
+2025-12-03 10:25:34,433 - INFO - ======================================================================
+2025-12-03 10:25:34,434 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:25:34,434 - INFO - ======================================================================
+2025-12-03 10:25:34,434 - INFO - Started at: 2025-12-03 10:25:34
+2025-12-03 10:25:34,434 - INFO - 
+2025-12-03 10:25:34,435 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:25:34,435 - INFO - Python 3.14.0
+2025-12-03 10:25:34,435 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:25:34,435 - INFO - 
+2025-12-03 10:25:34,436 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:25:34,925 - INFO - [OK] pip is available
+2025-12-03 10:25:34,925 - INFO - 
+2025-12-03 10:25:34,925 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:25:34,925 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:25:34,925 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:25:37,071 - INFO - Installing project dependencies...
+2025-12-03 10:25:50,956 - ERROR - Failed to install dependencies:   error: subprocess-exited-with-error
+  
+  Getting requirements to build wheel did not run successfully.
+  exit code: 1
+  
+  [32 lines of output]
+  Traceback (most recent call last):
+    File "D:\python\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+      main()
+      ~~~~^^
+    File "D:\python\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+      json_out["return_val"] = hook(**hook_input["kwargs"])
+                               ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+    File "D:\python\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 137, in get_requires_for_build_wheel
+      backend = _build_backend()
+    File "D:\python\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 70, in _build_backend
+      obj = import_module(mod_path)
+    File "D:\python\Lib\importlib\__init__.py", line 88, in import_module
+      return _bootstrap._gcd_import(name[level:], package, level)
+             ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+    File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+    File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+    File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+    File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+    File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+    File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+    File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+    File "<frozen importlib._bootstrap_external>", line 762, in exec_module
+    File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+    File "C:\Users\v-jiandong\AppData\Local\Temp\pip-build-env-jfn6zb_f\overlay\Lib\site-packages\setuptools\__init__.py", line 16, in <module>
+      import setuptools.version
+    File "C:\Users\v-jiandong\AppData\Local\Temp\pip-build-env-jfn6zb_f\overlay\Lib\site-packages\setuptools\version.py", line 1, in <module>
+      import pkg_resources
+    File "C:\Users\v-jiandong\AppData\Local\Temp\pip-build-env-jfn6zb_f\overlay\Lib\site-packages\pkg_resources\__init__.py", line 2172, in <module>
+      register_finder(pkgutil.ImpImporter, find_on_path)
+                      ^^^^^^^^^^^^^^^^^^^
+  AttributeError: module 'pkgutil' has no attribute 'ImpImporter'. Did you mean: 'zipimporter'?
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'numpy' when getting requirements to build wheel
+
+2025-12-03 10:25:50,958 - ERROR - Failed to install dependencies. Check logs above for details.
+2025-12-03 10:27:51,208 - INFO - 
+
+2025-12-03 10:27:51,209 - INFO - ======================================================================
+2025-12-03 10:27:51,209 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:27:51,209 - INFO - ======================================================================
+2025-12-03 10:27:51,209 - INFO - Started at: 2025-12-03 10:27:51
+2025-12-03 10:27:51,210 - INFO - 
+2025-12-03 10:27:51,210 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:27:51,210 - INFO - Python 3.14.0
+2025-12-03 10:27:51,210 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:27:51,210 - INFO - 
+2025-12-03 10:27:51,210 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:27:51,691 - INFO - [OK] pip is available
+2025-12-03 10:27:51,691 - INFO - 
+2025-12-03 10:27:51,691 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:27:51,691 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:27:51,692 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:29:06,558 - INFO - 
+
+2025-12-03 10:29:06,558 - INFO - ======================================================================
+2025-12-03 10:29:06,559 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:29:06,559 - INFO - ======================================================================
+2025-12-03 10:29:06,559 - INFO - Started at: 2025-12-03 10:29:06
+2025-12-03 10:29:06,559 - INFO - 
+2025-12-03 10:29:06,559 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:29:06,560 - INFO - Python 3.14.0
+2025-12-03 10:29:06,560 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:29:06,560 - INFO - 
+2025-12-03 10:29:06,560 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:29:07,024 - INFO - [OK] pip is available
+2025-12-03 10:29:07,025 - INFO - 
+2025-12-03 10:29:07,025 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:29:07,026 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:29:07,026 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:29:09,184 - INFO - Installing project dependencies...
+2025-12-03 10:29:10,811 - ERROR - Failed to install dependencies: ERROR: Could not find a version that satisfies the requirement pyyaml==6.0.1 (from versions: 6.0.3)
+ERROR: No matching distribution found for pyyaml==6.0.1
+
+2025-12-03 10:29:10,811 - ERROR - Failed to install dependencies. Check logs above for details.
+2025-12-03 10:29:25,628 - INFO - 
+
+2025-12-03 10:29:25,628 - INFO - ======================================================================
+2025-12-03 10:29:25,628 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:29:25,629 - INFO - ======================================================================
+2025-12-03 10:29:25,629 - INFO - Started at: 2025-12-03 10:29:25
+2025-12-03 10:29:25,629 - INFO - 
+2025-12-03 10:29:25,629 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:29:25,630 - INFO - Python 3.14.0
+2025-12-03 10:29:25,630 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:29:25,630 - INFO - 
+2025-12-03 10:29:25,630 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:29:26,152 - INFO - [OK] pip is available
+2025-12-03 10:29:26,153 - INFO - 
+2025-12-03 10:29:26,153 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:29:26,153 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:29:26,153 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:29:28,355 - INFO - Installing project dependencies...
+2025-12-03 10:29:30,329 - ERROR - Failed to install dependencies: ERROR: Could not find a version that satisfies the requirement regex==2023.12.25 (from versions: 2014.8.28, 2025.7.29, 2025.7.31, 2025.7.33, 2025.7.34, 2025.8.29, 2025.9.1, 2025.9.18, 2025.10.22, 2025.10.23, 2025.11.3)
+ERROR: No matching distribution found for regex==2023.12.25
+
+2025-12-03 10:29:30,329 - ERROR - Failed to install dependencies. Check logs above for details.
+2025-12-03 10:29:57,798 - INFO - 
+
+2025-12-03 10:29:57,798 - INFO - ======================================================================
+2025-12-03 10:29:57,799 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:29:57,799 - INFO - ======================================================================
+2025-12-03 10:29:57,799 - INFO - Started at: 2025-12-03 10:29:57
+2025-12-03 10:29:57,799 - INFO - 
+2025-12-03 10:29:57,799 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:29:57,799 - INFO - Python 3.14.0
+2025-12-03 10:29:57,800 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:29:57,800 - INFO - 
+2025-12-03 10:29:57,800 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:29:58,285 - INFO - [OK] pip is available
+2025-12-03 10:29:58,285 - INFO - 
+2025-12-03 10:29:58,285 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:29:58,285 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:29:58,285 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:30:00,402 - INFO - Installing project dependencies...
+2025-12-03 10:30:01,565 - INFO - [OK] Dependencies installed successfully
+2025-12-03 10:30:01,565 - INFO - 
+2025-12-03 10:30:01,566 - INFO - Step 4: Discovering test files...
+2025-12-03 10:30:01,566 - INFO - Found 3 test file(s):
+2025-12-03 10:30:01,566 - INFO -   - case_1.py
+2025-12-03 10:30:01,567 - INFO -   - case_2.py
+2025-12-03 10:30:01,567 - INFO -   - case_3.py
+2025-12-03 10:30:01,567 - INFO - 
+2025-12-03 10:30:01,568 - INFO - Step 5: Running tests...
+2025-12-03 10:30:01,568 - INFO - ============================================================
+2025-12-03 10:30:01,568 - INFO - Running tests...
+2025-12-03 10:30:01,568 - INFO - ============================================================
+2025-12-03 10:30:01,568 - INFO - 
+Running: case_1.py
+2025-12-03 10:30:01,682 - ERROR -   [FAILED]
+2025-12-03 10:30:01,682 - ERROR - Output: Traceback (most recent call last):
+  File "D:\vscoderprojects\v-JianzhangDong_25_12_03\haiku-4.5\v-JianzhangDong_25_12_03_case1\tests\case_1.py", line 1, in <module>
+    from app.data_loader import load_csv, normalize_column
+ModuleNotFoundError: No module named 'app'
+
+2025-12-03 10:30:01,682 - INFO - 
+Running: case_2.py
+2025-12-03 10:30:01,805 - ERROR -   [FAILED]
+2025-12-03 10:30:01,805 - ERROR - Output: Traceback (most recent call last):
+  File "D:\vscoderprojects\v-JianzhangDong_25_12_03\haiku-4.5\v-JianzhangDong_25_12_03_case1\tests\case_2.py", line 1, in <module>
+    from app.text_processor import extract_keywords
+ModuleNotFoundError: No module named 'app'
+
+2025-12-03 10:30:01,805 - INFO - 
+Running: case_3.py
+2025-12-03 10:30:01,914 - ERROR -   [FAILED]
+2025-12-03 10:30:01,915 - ERROR - Output: Traceback (most recent call last):
+  File "D:\vscoderprojects\v-JianzhangDong_25_12_03\haiku-4.5\v-JianzhangDong_25_12_03_case1\tests\case_3.py", line 1, in <module>
+    from app.visualizer import plot_histogram
+ModuleNotFoundError: No module named 'app'
+
+2025-12-03 10:30:01,915 - INFO - ============================================================
+2025-12-03 10:30:01,915 - INFO - Test Results Summary:
+2025-12-03 10:30:01,915 - INFO -   Passed: 0
+2025-12-03 10:30:01,915 - INFO -   Failed: 3
+2025-12-03 10:30:01,916 - INFO -   Total:  3
+2025-12-03 10:30:01,916 - INFO - ============================================================
+2025-12-03 10:30:01,916 - INFO - 
+2025-12-03 10:30:01,916 - INFO - ======================================================================
+2025-12-03 10:30:01,916 - ERROR - [ERROR] TEST EXECUTION FAILED: 3 test(s) failed
+2025-12-03 10:30:01,916 - INFO - ======================================================================
+2025-12-03 10:30:01,917 - INFO - Completed at: 2025-12-03 10:30:01
+2025-12-03 10:30:01,917 - INFO - Results saved to: D:\vscoderprojects\v-JianzhangDong_25_12_03\haiku-4.5\v-JianzhangDong_25_12_03_case1\logs\test_run.log
+2025-12-03 10:30:01,917 - INFO - Check the log file for details.
+2025-12-03 10:30:01,917 - INFO - 
+2025-12-03 10:30:16,346 - INFO - 
+
+2025-12-03 10:30:16,348 - INFO - ======================================================================
+2025-12-03 10:30:16,348 - INFO - Automatic Environment Detection and Test Runner
+2025-12-03 10:30:16,348 - INFO - ======================================================================
+2025-12-03 10:30:16,349 - INFO - Started at: 2025-12-03 10:30:16
+2025-12-03 10:30:16,349 - INFO - 
+2025-12-03 10:30:16,349 - INFO - Step 1: Detecting Python environment...
+2025-12-03 10:30:16,349 - INFO - Python 3.14.0
+2025-12-03 10:30:16,350 - INFO - System Python (Default): D:\python\python.exe
+2025-12-03 10:30:16,350 - INFO - 
+2025-12-03 10:30:16,350 - INFO - Step 2: Checking pip availability...
+2025-12-03 10:30:16,833 - INFO - [OK] pip is available
+2025-12-03 10:30:16,833 - INFO - 
+2025-12-03 10:30:16,834 - INFO - Step 3: Installing dependencies...
+2025-12-03 10:30:16,834 - INFO - Installing dependencies from requirements.txt...
+2025-12-03 10:30:16,834 - INFO - Upgrading pip, setuptools, and wheel...
+2025-12-03 10:30:18,900 - INFO - Installing project dependencies...
+2025-12-03 10:30:20,148 - INFO - [OK] Dependencies installed successfully
+2025-12-03 10:30:20,149 - INFO - 
+2025-12-03 10:30:20,149 - INFO - Step 4: Discovering test files...
+2025-12-03 10:30:20,150 - INFO - Found 3 test file(s):
+2025-12-03 10:30:20,150 - INFO -   - case_1.py
+2025-12-03 10:30:20,151 - INFO -   - case_2.py
+2025-12-03 10:30:20,151 - INFO -   - case_3.py
+2025-12-03 10:30:20,151 - INFO - 
+2025-12-03 10:30:20,151 - INFO - Step 5: Running tests...
+2025-12-03 10:30:20,152 - INFO - ============================================================
+2025-12-03 10:30:20,152 - INFO - Running tests...
+2025-12-03 10:30:20,152 - INFO - ============================================================
+2025-12-03 10:30:20,152 - INFO - 
+Running: case_1.py
+2025-12-03 10:30:20,946 - INFO -   [OK] PASSED
+2025-12-03 10:30:20,946 - INFO - 
+Running: case_2.py
+2025-12-03 10:30:21,155 - INFO -   [OK] PASSED
+2025-12-03 10:30:21,156 - INFO - 
+Running: case_3.py
+2025-12-03 10:30:22,237 - INFO -   [OK] PASSED
+2025-12-03 10:30:22,237 - INFO - ============================================================
+2025-12-03 10:30:22,238 - INFO - Test Results Summary:
+2025-12-03 10:30:22,238 - INFO -   Passed: 3
+2025-12-03 10:30:22,238 - INFO -   Failed: 0
+2025-12-03 10:30:22,238 - INFO -   Total:  3
+2025-12-03 10:30:22,239 - INFO - ============================================================
+2025-12-03 10:30:22,239 - INFO - 
+2025-12-03 10:30:22,239 - INFO - ======================================================================
+2025-12-03 10:30:22,239 - INFO - [SUCCESS] ALL TESTS PASSED!
+2025-12-03 10:30:22,240 - INFO - ======================================================================
+2025-12-03 10:30:22,240 - INFO - Completed at: 2025-12-03 10:30:22
+2025-12-03 10:30:22,240 - INFO - Results saved to: D:\vscoderprojects\v-JianzhangDong_25_12_03\haiku-4.5\v-JianzhangDong_25_12_03_case1\logs\test_run.log
+2025-12-03 10:30:22,240 - INFO - 
