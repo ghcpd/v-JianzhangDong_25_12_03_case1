@@ -1,0 +1,82 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Pin to numpy 2.3.5 which has wheels for Python 3.14 in many environments so installations won’t require local C compilers."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "(removed)",
+      "reason": "Removed pandas to avoid source-build issues on Windows Python 3.14; CSV handled by stdlib csv and numpy for numeric ops."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "(removed)",
+      "reason": "Removed from pinned requirements because many environments (Windows+Python 3.14) lack prebuilt wheels; visualizer provides a fallback implementation when matplotlib is not installed."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "Older versions have known vulnerabilities; update to latest stable release."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "(removed)",
+      "reason": "Removed PyYAML to avoid requiring a C-backed build step on Windows Python 3.14; tests do not need YAML parsing."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "(removed)",
+      "reason": "Scipy removed because tests do not require it; removing avoids build failures on Python 3.14 without compilers."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "(removed)",
+      "reason": "Replaced 'regex' with stdlib 're' to avoid incompatible wheel issues on Python 3.14."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.65.0",
+      "reason": "Bring progress-bar utility up-to-date for bug fixes and new features."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Pin to lxml 6.0.2 which has wheels for modern Python versions on Windows."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.8.0",
+      "reason": "Provides backports for typing features required by newer packages and helps compatibility."
+    }
+  ,
+    {
+      "id": 11,
+      "package": "python",
+      "original_version": "3.14.0",
+      "updated_version": "3.11.x (recommended)",
+      "reason": "Active interpreter is Python 3.14 which currently lacks binary wheels for several packages; recommend using Python 3.11 or Docker/conda to run tests."
+    }
+  ]
+}
