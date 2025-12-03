@@ -1,0 +1,29 @@
+Using Python: C:\Users\v-jiandong\.cache\oswe_envs\v-JianzhangDong_25_12_03_case1\Scripts\python.exe
+Requirements: d:\projects\v-JianzhangDong_25_12_03\oswe-large-rapd-m4s90\v-JianzhangDong_25_12_03_case1\requirements.txt
+
+Discovered tests:
+ - tests\case_1.py
+ - tests\case_2.py
+ - tests\case_3.py
+
+Running tests...
+
+=== Running tests\case_1.py ===
+Normalization OK: [-1.41421356 -0.70710678  0.        ]
+--- tests\case_1.py PASSED (exit=0) ---
+=== Running tests\case_2.py ===
+[['Dependency', 'management', 'extremely', 'important', 'projects'], ['libraries', 'cause', 'production', 'issues']]
+
+Extracting:   0%|          | 0/2 [00:00<?, ?it/s]
+Extracting: 100%|██████████| 2/2 [00:00<00:00, 7043.33it/s]
+--- tests\case_2.py PASSED (exit=0) ---
+=== Running tests\case_3.py ===
+XML Parsed: 123
+--- tests\case_3.py PASSED (exit=0) ---
+
+Summary:
+ - tests\case_1.py: OK
+ - tests\case_2.py: OK
+ - tests\case_3.py: OK
+
+All 3 test(s) passed.

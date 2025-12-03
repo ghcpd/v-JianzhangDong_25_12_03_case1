@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "1.26.4",
+      "reason": "Outdated; security and bug fixes in >=1.26.x and compatibility with newer pandas/matplotlib."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.2.3",
+      "reason": "Outdated; numerous bug fixes and Python 3.12+ support in 2.2.x."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.9.0",
+      "reason": "Outdated; security and rendering fixes in >=3.8.x."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.32.3",
+      "reason": "Older release may pull vulnerable urllib3 (<1.26.5); update to latest stable."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.2",
+      "reason": "CVE-2020-1747 and other fixes addressed in >=6.0.x."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.11.4",
+      "reason": "Outdated; bug fixes and Python 3.11/3.12 wheels in 1.11.x."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2024.9.11",
+      "reason": "Outdated; performance and ReDoS hardening in newer releases."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.5",
+      "reason": "Outdated; bug fixes and Python 3.12 support in 4.66.x."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "5.2.2",
+      "reason": "CVE-2021-43818 and other fixes addressed in >=4.9.x/5.x."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.12.2",
+      "reason": "Outdated; sync with latest typing PEPs and Python 3.12 support."
+    }
+  ]
+}
