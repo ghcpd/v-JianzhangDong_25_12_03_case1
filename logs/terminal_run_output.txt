@@ -1,0 +1,80 @@
+No active virtualenv detected; creating an external temp venv.
+Actual environment location may have moved due to redirects, links or junctions.
+  Requested location: "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Scripts\python.exe"
+  Actual location:    "C:\Users\v-jiandong\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Scripts\python.exe"
+Warning: Python 3.14 detected ¡ª many packages may not provide prebuilt wheels for this version yet. Attempting local install; if it fails, please use Docker, conda or install Visual Studio Build Tools.
+Running: C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Scripts\python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\v-jian~1\appdata\local\temp\v-jianzhangdong_test_env_1764739615\lib\site-packages (25.2)
+Collecting pip
+  Using cached pip-25.3-py3-none-any.whl.metadata (4.7 kB)
+Using cached pip-25.3-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.2
+    Uninstalling pip-25.2:
+      Successfully uninstalled pip-25.2
+Successfully installed pip-25.3
+Running: C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Scripts\python.exe -m pip install --no-cache-dir --prefer-binary -r D:\projects\v-JianzhangDong_25_12_03\oswe-mini-m22a1s385\v-JianzhangDong_25_12_03_case1\requirements.txt
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\__main__.py", line 24, in <module>
+    sys.exit(_main())
+             ~~~~~^^
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\_internal\cli\main.py", line 78, in main
+    command = create_command(cmd_name, isolated=("--isolated" in cmd_args))
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\_internal\commands\__init__.py", line 121, in create_command
+    module = importlib.import_module(module_path)
+  File "D:\python\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 762, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\_internal\commands\install.py", line 13, in <module>
+    from pip._vendor.requests.exceptions import InvalidProxyURL
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\_vendor\requests\__init__.py", line 43, in <module>
+    from pip._vendor import urllib3
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\_vendor\urllib3\__init__.py", line 13, in <module>
+    from .connectionpool import HTTPConnectionPool, HTTPSConnectionPool, connection_from_url
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\_vendor\urllib3\connectionpool.py", line 13, in <module>
+    from .connection import (
+    ...<8 lines>...
+    )
+  File "C:\Users\V-JIAN~1\AppData\Local\Temp\v-JianzhangDong_test_env_1764739615\Lib\site-packages\pip\_vendor\urllib3\connection.py", line 63, in <module>
+    from .util.ssl_match_hostname import CertificateError, match_hostname
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 758, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 854, in get_code
+  File "<frozen importlib._bootstrap_external>", line 953, in get_data
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "D:\projects\v-JianzhangDong_25_12_03\oswe-mini-m22a1s385\v-JianzhangDong_25_12_03_case1\auto_test.py", line 131, in <module>
+    main()
+    ~~~~^^
+  File "D:\projects\v-JianzhangDong_25_12_03\oswe-mini-m22a1s385\v-JianzhangDong_25_12_03_case1\auto_test.py", line 121, in main
+    install_requirements(python_exe)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\projects\v-JianzhangDong_25_12_03\oswe-mini-m22a1s385\v-JianzhangDong_25_12_03_case1\auto_test.py", line 55, in install_requirements
+    p = run_command(cmd)
+  File "D:\projects\v-JianzhangDong_25_12_03\oswe-mini-m22a1s385\v-JianzhangDong_25_12_03_case1\auto_test.py", line 28, in run_command
+    proc = subprocess.run(cmd, env=env, capture_output=capture, text=True)
+  File "D:\python\Lib\subprocess.py", line 556, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\subprocess.py", line 1212, in communicate
+    self.wait()
+    ~~~~~~~~~^^
+  File "D:\python\Lib\subprocess.py", line 1278, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\subprocess.py", line 1604, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+                                         timeout_millis)
+KeyboardInterrupt
+^C

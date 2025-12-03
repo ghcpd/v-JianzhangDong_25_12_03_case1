@@ -1,0 +1,16 @@
+=== Running case_1.py ===
+Normalization OK: [-1.41421356 -0.70710678  0.        ]
+=== Exit code: 0 ===
+
+=== Running case_2.py ===
+[['Dependency', 'management', 'extremely', 'important', 'projects'], ['libraries', 'cause', 'production', 'issues']]
+
+Extracting:   0%|          | 0/2 [00:00<?, ?it/s]
+Extracting: 100%|██████████| 2/2 [00:00<00:00, 23045.63it/s]
+=== Exit code: 0 ===
+
+=== Running case_3.py ===
+matplotlib not available; using dummy plot
+XML Parsed: 123
+=== Exit code: 0 ===
+
