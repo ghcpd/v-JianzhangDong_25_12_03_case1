@@ -1,0 +1,10 @@
+Active interpreter: d:\python\python.exe
+
+========== RUNNING: tests/case_1.py ==========
+tests/case_1.py: SUCCESS
+
+========== RUNNING: tests/case_2.py ==========
+tests/case_2.py: SUCCESS
+
+========== RUNNING: tests/case_3.py ==========
+tests/case_3.py: SUCCESS
