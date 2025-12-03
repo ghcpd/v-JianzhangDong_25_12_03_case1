@@ -1,10 +1,10 @@
-numpy==1.24.0
-pandas==1.5.0
-matplotlib==3.5.0
-requests==2.25.0
-pyyaml==5.3.1
-scipy==1.9.0
-regex==2021.4.4
-tqdm==4.32.0
-lxml==4.6.1
-typing_extensions==3.7.4
+numpy==2.3.5      # CPU wheel available for Python 3.14
+pandas==2.3.3     # pandas 2.3.x supports modern Python versions
+matplotlib==3.10.7 # recent matplotlib with support for latest Python
+requests==2.32.5  # latest 2.x series
+pyyaml==6.0.3     # latest fixes
+scipy==1.16.3     # modern scipy with prebuilt wheels for 3.14
+regex==2025.11.3  # up-to-date regex release
+tqdm==4.67.1      # latest stable
+lxml==6.0.2       # matches available binary builds
+typing_extensions==4.15.0  # match latest stable
