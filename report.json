@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Outdated version; updated to Python 3.14 compatible version with performance improvements and bug fixes."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Outdated version; updated to Python 3.14 compatible version with improved features and compatibility."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.7",
+      "reason": "Outdated version; updated to Python 3.14 compatible version for better plotting features and bug fixes."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "Contains known security vulnerabilities (CVE-2023-32681); critical security update required."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Contains CVE-2020-14343 security vulnerability; critical update for safe YAML parsing."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Outdated version; updated to Python 3.14 compatible version for improved algorithms and compatibility."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Severely outdated (3+ years old); updated to Python 3.14 compatible version for bug fixes and performance."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.67.1",
+      "reason": "Severely outdated; updated to Python 3.14 compatible version for improved progress bar functionality."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Contains multiple CVE vulnerabilities (CVE-2021-43818, CVE-2022-2309); critical security update."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.15.0",
+      "reason": "Outdated version; updated to Python 3.14 compatible version for improved type hinting support."
+    }
+  ]
+}

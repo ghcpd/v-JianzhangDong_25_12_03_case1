@@ -1,0 +1,52 @@
+Test Run - 2025-12-03 10:29:55
+==================================================
+
+Auto Test Runner Started - 2025-12-03 10:29:55
+
+==================================================
+Python Environment Information
+==================================================
+Python Executable: D:\python\python.exe
+Python Version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+Virtual Environment: D:\python
+In Virtual Environment: False
+==================================================
+
+Checking dependencies...
+✓ All dependencies are installed.
+
+Found 3 test file(s)
+==================================================
+
+Running case_1.py...
+--------------------------------------------------
+Normalization OK: [-1.41421356 -0.70710678  0.        ]
+
+✓ case_1.py PASSED
+
+Running case_2.py...
+--------------------------------------------------
+[['Dependency', 'management', 'extremely', 'important', 'projects'], ['libraries', 'cause', 'production', 'issues']]
+
+
+Extracting:   0%|          | 0/2 [00:00<?, ?it/s]
+Extracting: 100%|██████████| 2/2 [00:00<00:00, 6472.69it/s]
+
+✓ case_2.py PASSED
+
+Running case_3.py...
+--------------------------------------------------
+XML Parsed: 123
+
+✓ case_3.py PASSED
+
+==================================================
+Test Summary
+==================================================
+Total Tests: 3
+Passed: 3
+Failed: 0
+Success Rate: 100.0%
+==================================================
+
+Detailed logs saved to: D:\vscoderprojects\v-JianzhangDong_25_12_03\sonnet-4.5\v-JianzhangDong_25_12_03_case1\logs\test_run.log
